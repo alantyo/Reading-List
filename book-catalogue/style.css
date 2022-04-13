@@ -1,0 +1,162 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width:800px;
+    margin-top: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 4px;
+    font-size: 18;
+    font-weight: 400;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox input{
+    margin-left: 10px;
+}
+
+.form-group input[type="text"],
+input[type="number"]{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    width: fit-content;
+    padding: 12px 24px;
+    margin-top: auto;
+    align-self: flex-end;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    background-color: #021988;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #253DA1;
+    color: whitesmoke;
+}
+
+.container h2{
+    margin-left: 20px;
+}
+
+.book-item{
+    flex-grow: 1 0 45%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom:20px;
+    width: 280px;
+    height: fit-content;
+    padding:20px;
+}
+
+.book-text h3{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.book-text h4{
+    font-weight: 400;
+}
+
+.button-collection{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button-collection button{
+    border-radius: 5px;
+    border: 1px solid;
+    font-weight: 600;
+    padding: 6px 12px;
+}
+
+.btn-remove{
+    background-color:white;
+    border-color: #021988;
+    color: #021988;
+    margin-left: 10px;
+    
+}
+
+.btn-status{
+    background-color: #021988;
+    border: none;
+    color: white;
+}
+
+.searchbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 320px;
+}
+
+.btn-search{
+    width: fit-content;
+    padding: 12px 24px;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: #021988;
+    color: white;
+}
+
+.btn-search:hover {
+    background-color: #253DA1;
+    color: whitesmoke;
+}
+
+.list-item{
+    display: flex;
+    flex-wrap: wrap;
+}
